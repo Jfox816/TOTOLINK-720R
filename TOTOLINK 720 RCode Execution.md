@@ -25,7 +25,7 @@ Connection: close
 {"ip":"aaaa\tls>/tmp/1.txt","num":"2","topicurl":"setDiagnosisCfg"}   
 
 
-Analysis Report: 
+Analysis Report:   
 In the setdiagnosicfg function, the value string corresponding to the IP in the JSON data is directly put into V6  
 
 ![image](https://user-images.githubusercontent.com/111302002/184783693-4239eb22-9729-4d3b-8357-57af94abebb4.png)  

